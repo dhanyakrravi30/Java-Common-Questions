@@ -16,7 +16,7 @@ public class ReplaceSubstringConsole {
         System.out.println("Enter which word to replace:   ");
         String word = scanner.nextLine();
         
-        System.out.println("Enter which word to replace:   ");
+        System.out.println("Enter what word to replace:   ");
         String replace = scanner.nextLine();
         
         String result = original.replace(word,replace);
@@ -31,7 +31,7 @@ Enter a String:
 HelloWorld
 Enter which word to replace:   
 Hello
-Enter which word to replace:   
+Enter what word to replace:   
 Hi
 Modified String:  HiWorld
  */
